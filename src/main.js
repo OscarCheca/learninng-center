@@ -4,9 +4,53 @@ import App from './app.vue'
 import i18n from "./i18n.js";
 import router from "./router.js";
 import pinia from "./pinia.js";
+import PrimeVue from 'primevue/config';
+import Material from '@primeuix/themes/material';
+import 'primeicons/primeicons.css';
+import 'primeflex/primeflex.css';
+import Tooltip from "primevue/tooltip";
+import {
+    Button, Card,
+    Checkbox, Column,
+    ConfirmationService,
+    ConfirmDialog,
+    DataTable, Dialog,
+    DialogService, Drawer, FileUpload, FloatLabel, IconField, InputIcon, InputNumber, InputText, Menu, Row,
+    Select, SelectButton, Tag, Textarea, Toast,
+    ToastService, Toolbar
+} from "primevue";
+import {inputIcon} from "@primeuix/themes/aura/datepicker";
 
+const primeUiLicenseKey = import.meta.env.VITE_PRIME_UI_LICENSE_KEY;
 createApp(App)
     .use(i18n)
     .use(router)
     .use(pinia)
+    .use(PrimeVue, { theme: { preset: Material}, ripple: true, license: primeUiLicenseKey})
+    .use(ConfirmationService)
+    .use(DialogService)
+    .use(ToastService)
+    .component('pv-button', Button)
+    .component('pv-card', Card)
+    .component('pc-column', Column)
+    .component('pv-confirm-dialog', ConfirmDialog)
+    .component('pv-checkbox', Checkbox)
+    .component('pv-data-table', DataTable )
+    .component('pv-dialog', Dialog )
+    .component('pv-select', Select)
+    .component('pv-select-button', SelectButton)
+    .component('pv-file-upload', FileUpload)
+    .component('-v-float-label', FloatLabel)
+    .component('pv-icon-field', IconField)
+    .component('pv-input-icon', InputIcon)
+    .component('pv-input-text', InputText)
+    .component('pv-input-number', InputNumber)
+    .component('pv-menu', Menu)
+    .component('pv-row', Row)
+    .component('pv-drawer', Drawer)
+    .component( 'pv-tag', Tag)
+    .component('pv-textarea', Textarea)
+    .component('pv-toolbar', Toolbar)
+    .component('pv-toast', Toast)
+    .directive('pv-tooltip', Tooltip)
     .mount('#app')
