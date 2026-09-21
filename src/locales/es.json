@@ -4,15 +4,15 @@
     "about": "Acerca de"
   },
   "home": {
-    "title": "Bienvenido",
+    "tittle": "Bienvenido",
     "content": "Bienvenido a ACME Learning Center."
   },
   "about": {
-    "title": "Acerca de",
+    "tittle": "Acerca de",
     "content": "ACME Learning Center es una Plataforma de Negocios de Educación parte de la Organizacion ACME ."
   },
   "page-not-found": {
-    "title": "Pagina no encontrada",
+    "tittle": "Pagina no encontrada",
     "content": "La ruta {unavailable-path} no esta disponible.",
     "go-home": "Ir a Inicio"
   }
