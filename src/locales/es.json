@@ -15,5 +15,11 @@
     "tittle": "Pagina no encontrada",
     "content": "La ruta {unavailable-route} no esta disponible.",
     "go-home": "Ir a Inicio"
+  },
+  "authoring-phrase": {
+    "intro": "Hecho con",
+    "use": "usando",
+    "author": "por el Equipo de Desarrollo de {brand}"
   }
+}
 }
