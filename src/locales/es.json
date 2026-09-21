@@ -1,0 +1,25 @@
+{
+  "option": {
+    "home": "Inicio",
+    "about": "Acerca de"
+  },
+  "home": {
+    "tittle": "Bienvenido",
+    "content": "Bienvenido a ACME Learning Center."
+  },
+  "about": {
+    "tittle": "Acerca de",
+    "content": "ACME Learning Center es una Plataforma de Negocios de Educación parte de la Organizacion ACME ."
+  },
+  "page-not-found": {
+    "tittle": "Pagina no encontrada",
+    "content": "La ruta {unavailable-route} no esta disponible.",
+    "go-home": "Ir a Inicio"
+  },
+  "authoring-phrase": {
+    "intro": "Hecho con",
+    "use": "usando",
+    "author": "por el Equipo de Desarrollo de {brand}"
+  }
+}
+}
