@@ -13,7 +13,7 @@
   },
   "page-not-found": {
     "tittle": "Page Not Found",
-    "content": "The path {unavailable-path} is not available.",
+    "content": "The path {unavailable-route} is not available.",
     "go-home": "Go Home"
   }
 }
